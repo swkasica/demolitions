@@ -136,3 +136,7 @@ venv.bak/
 
 
 # End of https://www.gitignore.io/api/macos,python,jupyternotebook
+
+# other
+shapefiles_Future_Year_2018-04-16/*
+*.qgs~
