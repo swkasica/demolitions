@@ -3,12 +3,16 @@ Demolitions
 
 Data diary and notes for work toward Phil Jankowski story about demolitions, scheduled for summer 2018.
 
+## Analysis
+
+The analysis is in Jupyter Notebook files in the folder `/notebooks/`. There is also a [Tableau data visualization](https://public.tableau.com/profile/statcomdata#!/vizhome/Demolitions2008-2018/Mapofdemolitions) to explore the data.
+
 ## Data diary
 
 Main construction permits data:
 https://data.austintexas.gov/Building-and-Development/Issued-Construction-Permits/3syk-w9eu/data
 
-## 2/26/2018
+### 2/26/2018
 Created two views on data.austintexas.gov
 - https://data.austintexas.gov/Building-and-Development/demolitions-full-post2017/4d8v-cjdw
     + https://data.austintexas.gov/resource/4d8v-cjdw.json
@@ -22,7 +26,7 @@ The method was similar to this:
 Downloaded both of those files into data-raw.
 
 
-### 3/5/2018 Julia Robbins
+### Notes: 3/5/2018 Julia Robbins
 
 ```
 Julia Robbins
@@ -43,14 +47,7 @@ Talked with Julia about the format of the data, pitfalls, etc. Some of the thing
 - Expired permits are those that were issued, but no inspections were ordered before the expiration of the permit. When inspectiions are done, the status is active. We do NOT want to keep Expired in our study, but we should be aware of them.
 - While there is no "sigle-wall teardown" flag, we *might* be able to use partial demo records and then compare the total/remodel/addition square footage.
 
-## Questions to ask Sylvia A
-- Is there an official or unofficial document about terminology used to fill out the Description field, especially for demos and partial demos.
-- As part of above, is there anything that might indicate singe-wall demos?
-- If we use square footage to help get at that idea, would we be successful?
-- Julia mentioned that "Addition and Remodel" has been recently used as either or, perhaps to allow flexibility for both should needs change for the owner. Does that jive? Is there anything in the description to note one or the other, or the change to both?
-    + She did not know the answers to any of these questions. I'll send her a list to send off to the folks at permit intake.
-
-### From Daniel Ward on 3/7/2018
+### Notes: From Daniel Ward on 3/7/2018
 
 ```
 Acting Plans Examiner Manager
@@ -67,8 +64,7 @@ The phrase “partial demo” or “partial demolition” is added to the descri
 However, it is going to be very difficult to find the projects you are looking for, as in my experience, the plans seldom reflect this condition. It typically occurs during construction, after the plan review is complete. The contractor/owner/framer starts exposing the walls by removing sheetrock and exterior cladding (siding, brick, stucco, etc.) and finds less than desirable conditions, and proceeds to remove the deteriorated/sub-standard wall framing, resulting in very little or none of the existing walls remaining.
 
 
-## Ideas
-- look at square footage of partial demos
+## Ideas that didn't pan out
 - find permits for known single-wall demos and see what they look like
 - Look at the Circa dates and see if we can quantify destruction of older homes?
 
