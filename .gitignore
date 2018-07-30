@@ -1,5 +1,5 @@
 # specials
-gis/*
+*.qgis~
 *.twbr
 
 # Created by https://www.gitignore.io/api/macos,python,jupyternotebook

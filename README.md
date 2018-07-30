@@ -26,6 +26,38 @@ Embed with map first:
 <div class='tableauPlaceholder' id='viz1532362895495' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;Demolitions2008-2017&#47;Mapofdemolitions&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Demolitions2008-2017&#47;Mapofdemolitions' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;Demolitions2008-2017&#47;Mapofdemolitions&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1532362895495');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.minWidth='320px';vizElement.style.maxWidth='575px';vizElement.style.width='100%';vizElement.style.height='650px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 ```
 
+## Print graphics
+
+Submitting two print graphics: Line chart of demolitions per year by zip code; map of areas with most demolitions 2008-2017.
+
+### Demos by year, by zip
+
+- Data is: `data-processed/top_demos_year_zip.csv`.
+- Example: `resources/top_demos_yr_zip_example.png`.
+- [Interactive example in Tableau](https://public.tableau.com/profile/statcomdata#!/vizhome/Demolitions2008-2017/DemolitionsbyZIP).
+
+Headline: Demolition permits by ZIP code
+
+Chatter: South and East Austin that have seen the greatest increase in residential demolitions since 2008, though other areas have seen more recently.
+
+Source: City of Austin construction permits
+
+### Demos map
+
+- Data is: `data-processed/demos_by_zip.csv`
+- Example map: `qgis/demos_by_zip.pdf`
+
+This was done in QGIS to give GateHouse graphics a good file to work with. All of that is saved in `qgis`. Some files used but not tracked:
+
+- City of Austin [Street Centerline shapefile](https://data.austintexas.gov/Locations-and-Maps/Street-Centerlines/m5w3-uea6).
+- TIGER/Line Shapefiles 2017 [ZIP Code Tabulation Areas](https://www.census.gov/cgi-bin/geo/shapefiles/index.php)
+
+Headline: South, East Austin drive demolitions
+
+Chatter: Desirable, close-in neighborhoods have seen the most residential demolition permits since 2008. 
+
+Source: City of Austin construction permit data
+
 ## Data diary
 
 Main construction permits data:
