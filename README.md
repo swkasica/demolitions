@@ -1,6 +1,6 @@
 # Residential demolitions in Austin
 
-This data and analysis supports an Austin American-Statesman article by Phil Jankowski about residential demolitions in Austin.
+This data and analysis supports an Austin American-Statesman [article](https://www.statesman.com/news/20181012/in-austin-home-demolitions-soar-along-with-economic-fortunes) by Phil Jankowski about residential demolitions in Austin.
 
 ## Analysis
 
